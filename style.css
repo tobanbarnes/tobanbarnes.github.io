@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'New Tower Text';
+    src: url('fonts/HTOWERT.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Header Image Style */
+.MainHeaderImage {
+    height: auto;
+    width: 80%;
+    display: block;
+    margin-inline: auto;
+    min-width: 80vh;
+    margin-top: 20px;
+}
+
+/* Main Header Divider Style */
+.MainHeaderDivider {
+    height: auto;
+    width: 10%;
+    display: block;
+    margin-inline: auto;
+    min-width: 40vh;
+    margin-bottom: 20px;
+}
+
+/* Smaller Divider Style */
+.Divider {
+    height: auto;
+    width: 5%;
+    display: block;
+    margin-inline: auto;
+    min-width: 30vh;
+    margin-top: 20px;
+}
+
+/* Small Image Style */
+.SmallHeaderImage {
+    height: auto;
+    width: 40%;
+    min-width: 200px;
+    display: block;
+    margin-inline: left;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/* Center Image Style */
+.CenterHeaderImage {
+    height: auto;
+    width: 30%;
+    min-width: 200px;
+    display: block;
+    margin-inline: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/* Small Image Style for Explore Zaria header */
+.SmallHeaderImageSmaller {
+    height: auto;
+    width: 28%;
+    min-width: 200px;
+    display: block;
+    margin-inline: left;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/* Video Box */
+.DisplayVideo {
+    width: 65%;
+    height: auto;
+}
+
+/* Small info box image next to video */
+.TextBoxImage {
+    width: 100%;
+    height: auto;
+    display: block;
+   
+}
+
+/* Container holding video and text box */
+.ShowContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Box holding Garen image and the buttons */
+.GarenBox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Text and button beside Garen */
+.GarenText {
+    width: 100%;
+    height: auto;
+    display: block;
+    font-size: 1.5rem;
+    margin-right: 20px;
+    padding-bottom: 100px;
+}
+
+.Button {
+    width: 50%;
+    margin-inline: auto;
+}
+
+/* Background */
+body {
+    background-image: url('ImageData/WebBack.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Black box main body text area */
+main {
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-right: 15%;
+    margin-left: 15%;
+    min-width: 80vh;
+    padding: 20px;
+    font-family: 'New Tower Text', sans-serif;
+    color: white;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Gallery Styles */
+.ImageGallery {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.SlideImage {
+    width: 24%;
+    height: auto;
+    transition: transform 0.3s ease, position 0.3s ease;
+}
+
+.SlideImage:hover {
+    transform: scale(2.5);
+}
+
+/* Dialogue Image Style */
+.Dialogue {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-inline: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
